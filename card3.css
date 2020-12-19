@@ -1,0 +1,42 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	 padding:150px;
+}
+.card{
+	 height:300px;
+	 width:200px;
+	 background:#fff;
+	 border:1px solid black;
+	 border-radius:5px;
+	 transition:0.5s;
+}
+.card:hover{
+	box-shadow:10px 18px 30px grey;
+	transform:translateY(-10%);
+}
+.face{
+	height:100px;
+	 width:100px;
+	 position:relative;
+	 background:#fff;
+	 
+  margin:10px auto;
+  border-radius:50%;
+}
+img{
+	height:100px;
+	 width:100px;
+	 border-radius:50%;
+}
+.text{
+	height:178px;
+	 width:100%;
+	 position:relative;
+	 background:#fff;
+	 
+	 border-radius:5px;
+}
