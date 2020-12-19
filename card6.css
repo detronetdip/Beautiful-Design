@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.outer{
+	height:100%;
+	width:100%;
+	background:black;
+}
+.bcx{
+	  height:12rem;
+	  width:25rem;
+	  position:absolute;
+	  top:50%;
+	  left:50%;
+	  transform:translate(-50%,-50%);
+}
+svg,g{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	fill:transparent;
+}
+svg g{
+	 stroke:#0093ff;
+	 stroke-width:3px;
+	 stroke-dasharray:454;
+	 animation:animate 7s linear infinite;
+	 
+}
+@keyframes animate {
+	  0%{
+	  	stroke-dashoffset:548;
+	  }
+	  100%{
+	  	stroke-dashoffset:0;
+	  }
+}
